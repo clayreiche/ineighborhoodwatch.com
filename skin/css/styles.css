@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { height: 100% }
+
+body {
+	height: 100%;
+	text-align: center;
+}
+
+img {
+	border: 0;
+}
+
+#superdiv {
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	width: 980px;
+	position: relative;
+}
+
+#clearfix {
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+#header {
+	margin: 0 auto;
+	text-align: center;
+    color: white;
+    height: 115px;
+    position: relative;
+    width: 100%;
+}
+
+#header a{
+	font: Arial, Helvetica, sans-serif;
+    color: white;
+	text-decoration: none;
+}
+
+#logo {
+	display: block;
+	float: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	clip: rect('top', 'right', 'bottom', 'left');
+}
+
+#footer {
+	font-family: Arial,Verdana,Helvetica,Sans-Serif;
+	margin: 0 auto;
+	text-align: center;
+    color: white;
+    height: 115px;
+    position: relative;
+    width: 100%;
+	height: 35px;
+	display: block;
+	float: left;
+}
+
+#footer a{
+	font-family: Arial,Verdana,Helvetica,Sans-Serif;
+    color: white;
+	text-decoration: none;
+}
+
+#footernavlinks li{
+	text-align: center;
+	font-family: Arial,Verdana,Helvetica,Sans-Serif;
+	display: block;
+	color: #FFFFFF;
+	font-size: 12px;
+    font-weight: bold;
+    list-style: none outside none;
+}

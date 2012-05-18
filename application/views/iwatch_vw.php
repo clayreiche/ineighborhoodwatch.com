@@ -4,12 +4,15 @@
 		visibility:hidden;
 		background:#ffffff;
 		border:1px solid #8888FF;
-		z-index: 10;  
+		z-index: 1;  
 		position: relative;
 		width: 160px;
 	}
 	.contextmenu div{
-    	padding-left: 5px
+    	padding-left: 5px;
+    }
+	a{
+    	z-index: 99;
     }
 </style>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBHzd6gKSh4lByCqSJg5FMxQ8mzP_ep1Cs&sensor=true"></script>
@@ -75,16 +78,19 @@
 		$('.contextmenu').remove();
 		contextmenuDir = document.createElement("div");
 		contextmenuDir.className  = 'contextmenu';
-		contextmenuDir.innerHTML = "<a id='menu1' href='#'><div class=context>I Live Here." + "<\/div><\/a>";
+		contextmenuDir.innerHTML = "<a id='menu1' href='/register?latlng=" + escape(caurrentLatLng) + "'><div id='livehere' class=context>I Live Here." + "<\/div><\/a>";
 		$(map.getDiv()).append(contextmenuDir);
 		
 		setMenuXY(caurrentLatLng);
 		
 		contextmenuDir.style.visibility = "visible";
 	}
-  
+	  
 	$(function() {
 		initialize();
+		$('#map_canvas').click(function() {
+			$('.contextmenu').remove();
+		});
 	});
 </script>
 <div id="map_canvas" style="width:100%; height:100%;"></div>

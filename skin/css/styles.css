@@ -49,6 +49,14 @@ img {
 	clip: rect('top', 'right', 'bottom', 'left');
 }
 
+.contextmenu {
+	
+}
+
+.context {
+
+}
+
 #footer {
 	font-family: Arial,Verdana,Helvetica,Sans-Serif;
 	margin: 0 auto;

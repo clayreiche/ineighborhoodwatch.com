@@ -96,7 +96,7 @@ class Register extends CI_Controller {
 							'lastname' => $post['lastname'],
 							'middlename' => $post['middlename'],
 							'gender' => $post['gender'],
-							'isblockcaptain' => $post['blockcaptain'],
+							'isblockcaptain' => $blockcaptain,
 							'chairman' => $post['chairman']
 						);
 			$this->db->insert('users', $userdata);

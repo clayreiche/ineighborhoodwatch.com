@@ -83,7 +83,7 @@ class Register extends CI_Controller {
 		$cellphone = str_replace("(","",$post['cellphone']);
 		$cellphone = str_replace(")","",$cellphone);
 		$cellphone = str_replace(" ","",$cellphone);
-		if(isset($post['blockcaptain']) {
+		if(isset($post['blockcaptain'])) {
 			$blockcaptain = $post['blockcaptain'];
 		}else {
 			$blockcaptain = '';

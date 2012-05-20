@@ -80,9 +80,11 @@ class Register extends CI_Controller {
 		$housephone = str_replace("(","",$post['housephone']);
 		$housephone = str_replace(")","",$housephone);
 		$housephone = str_replace(" ","",$housephone);
+		$housephone = str_replace("-","",$housephone);
 		$cellphone = str_replace("(","",$post['cellphone']);
 		$cellphone = str_replace(")","",$cellphone);
 		$cellphone = str_replace(" ","",$cellphone);
+		$cellphone = str_replace("-","",$cellphone);
 		if(isset($post['blockcaptain'])) {
 			$blockcaptain = $post['blockcaptain'];
 		}else {

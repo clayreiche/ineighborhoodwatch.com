@@ -2,7 +2,7 @@ form {
 	font-family: "Tahoma", "Geneva", sans-serif;
 	color: #629262;
 	padding: 10px;
-	width: 600px;
+	width: 800px;
 }
 fieldset {
 	border: 1px solid #629262;
@@ -42,7 +42,7 @@ form p.nolabel * {
 	margin-left: 110px;
 }
 label {
-	width: 100px;
+	width: 150px;
 	text-align: right;
 	display: block;
 	float: left;
@@ -67,7 +67,7 @@ input[type=text], textarea, input[type=password] {
 	background: -moz-linear-gradient(top, #f8fff8, #e8eee8 1px, #f8fff8 25px); 
 	position: absolute;
 	bottom: 0;
-	left: 110px;
+	left: 160px;
 }
 p.nolabel input[type=text], p.nolabel textarea, p.nolabel input[type=password] {
 	position: relative;
@@ -178,8 +178,8 @@ input[type=checkbox]:checked:before {
 }
 .radioreplacement, .checkboxreplacement {
 	position: absolute;
-	top: 10px;
-	left: 110px;
+	top: 4px;
+	left: 160px;
 	vertical-align: top;
 }
 .checkboxreplacement {
@@ -190,7 +190,7 @@ input[type=checkbox]:checked:before {
 }
 input[type=checkbox], input[type=radio] {
 	position: relative;
-	top: 6px;
+	top: 4px;
 }
 select {
 	border: 1px solid #629262;

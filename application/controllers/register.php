@@ -78,11 +78,11 @@ class Register extends CI_Controller {
 		$return = 'SUCCESS';
 		//Format phone numbers
 		$housephone = str_replace("(","",$post['housephone']);
-		$housephone = str_replace(")","",$post['housephone']);
-		$housephone = str_replace(" ","",$post['housephone']);
+		$housephone = str_replace(")","",$housephone);
+		$housephone = str_replace(" ","",$housephone);
 		$cellphone = str_replace("(","",$post['cellphone']);
-		$cellphone = str_replace(")","",$post['cellphone']);
-		$cellphone = str_replace(" ","",$post['cellphone']);
+		$cellphone = str_replace(")","",$cellphone);
+		$cellphone = str_replace(" ","",$cellphone);
 		try {
 			//Insert User Data
 			$userdata = array('username' => $post['email'],

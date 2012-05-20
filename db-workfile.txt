@@ -1,0 +1,42 @@
+email - varchar(255)
+password - varchar(255)
+firstname - varchar(255)
+middlename - varchar(255)
+lastname - varchar(255)
+address1 - varchar(255)
+address2 - varchar(255)
+city - varchar(255)
+state - varchar(255)
+zip - varchar(255)
+alertemail1 - varchar(255)
+alertemail2 - varchar(255)
+alertemail3 - varchar(255)
+alertemail4 - varchar(255)
+phone1 - varchar(255)
+phone2 - varchar(255)
+phone3 - varchar(255)
+phone4 - varchar(255)
+cellphone1 - varchar(255)
+cellphone2 - varchar(255)
+cellphone3 - varchar(255)
+cellphone4 - varchar(255)
+isblockcaptain - boolean
+blockcaptain - varchar(255)
+alertlevel1 - boolean
+alertlevel2 - boolean
+alertlevel3 - boolean
+alertlevel4 - boolean
+alertphonecall - boolean
+alerttext - boolean
+alertemail - boolean
+verified - boolean
+
+id
+username
+relationship
+gender
+firstname
+lastname
+middlename
+age
+info

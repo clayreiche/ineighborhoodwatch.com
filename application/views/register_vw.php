@@ -58,7 +58,7 @@
 			<option value="Clay Reiche">Clay Reiche</option>
 			<option value="Tony Petralia">Tony Petralia</option>
 			<option value="Robbie Robinson">Robbie Robinson</option>
-			<option value="John Dato">John Data</option>
+			<option value="John Dato">John Dato</option>
 			<option value="Carol Palin">Carol Palin</option>
 		</select>
 	</p>
